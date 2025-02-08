@@ -1,4 +1,4 @@
-'''
+
 n=2
 m=5
 print(f"{m} is always grater than {n}")   #style of printing(f-string formatting)
@@ -25,9 +25,9 @@ else :
           sum1 *= n
           n -= 1
 print("the factorial of", n1, 'is', sum1)
-'''
 
-'''
+
+
 import numpy as np
 import scipy as sc
 import numpy.linalg as lin
@@ -65,11 +65,11 @@ import matplotlib.pyplot as plt
 plt.plot(t,sol,label='given')
 plt.plot(t,sol1,label='given1')
 plt.show()
-'''
+
 
 import numpy as np
 import matplotlib.pyplot as plt
-'''
+
 #plot and subplot
 def f(t):
     return np.exp(-t)*np.cos(2*np.pi*t)
@@ -97,7 +97,7 @@ plt.title('x vs cos(2*pi*x) graph',fontdict=font1,loc='left')
 plt.grid(color = 'pink', linestyle = '--', linewidth = 1.5)
 
 plt.show()
-'''
+
 
 #add text in graph
 
